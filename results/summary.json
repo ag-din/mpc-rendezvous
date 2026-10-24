@@ -1,0 +1,203 @@
+{
+  "orbit": {
+    "mean_motion_rad_s": 0.0008531494384100816,
+    "period_s": 7364.6948873210895
+  },
+  "model_validation": {
+    "error_after_one_orbit_m": 1090.5495994248374,
+    "error_after_one_step_m": 1.0743376480168234
+  },
+  "nominal": [
+    {
+      "controller": "QP",
+      "delta_v": 25.13452660214186,
+      "firings": 40,
+      "settling_time": 6800.0,
+      "final_error": 4.160696410226689,
+      "cone_viol_sampled": 0.0,
+      "cone_viol_intersample": 24.86289525936183,
+      "solve_time_mean": 0.017467792199990128,
+      "solve_time_max": 0.1385331690000271,
+      "all_feasible": true
+    },
+    {
+      "controller": "LP",
+      "delta_v": 16.34463929545677,
+      "firings": 11,
+      "settling_time": 4000.0,
+      "final_error": 1.917582332763899e-06,
+      "cone_viol_sampled": 0.0,
+      "cone_viol_intersample": 30.09232533742804,
+      "solve_time_mean": 0.01385267104999599,
+      "solve_time_max": 0.14169000200001847,
+      "all_feasible": true
+    },
+    {
+      "controller": "VHLP",
+      "delta_v": 14.274644202933366,
+      "firings": 11,
+      "settling_time": 3400.0,
+      "final_error": 5.684341888569979e-13,
+      "cone_viol_sampled": 0.0,
+      "cone_viol_intersample": 24.988742909501422,
+      "solve_time_mean": 0.16581129165000305,
+      "solve_time_max": 1.708230212999979,
+      "all_feasible": true
+    },
+    {
+      "controller": "VHQP",
+      "delta_v": 17.105391934365212,
+      "firings": 19,
+      "settling_time": 3600.0,
+      "final_error": 7.958078640695658e-13,
+      "cone_viol_sampled": 0.0,
+      "cone_viol_intersample": 25.098880932449426,
+      "solve_time_mean": 0.20775396307499108,
+      "solve_time_max": 1.890970695999954,
+      "all_feasible": true
+    }
+  ],
+  "monte_carlo": {
+    "QP": {
+      "settled_fraction": 0.0,
+      "delta_v": {
+        "mean": 25.24892853125009,
+        "std": 0.14151605243363408
+      },
+      "firings": {
+        "mean": 37.55,
+        "std": 0.739932429347437
+      },
+      "settling_time": {
+        "mean": null,
+        "std": null
+      },
+      "final_error": {
+        "mean": 24.166213530772104,
+        "std": 1.6348276835271085
+      },
+      "cone_viol_sampled": {
+        "mean": 3.4135652238510623,
+        "std": 2.688871249805547
+      },
+      "cone_viol_intersample": {
+        "mean": 24.419684768251123,
+        "std": 2.909667103140622
+      },
+      "solve_time_mean": {
+        "mean": 0.013106787291250015,
+        "std": 0.0005805500495147583
+      },
+      "solve_time_max": {
+        "mean": 0.02292873710000549,
+        "std": 0.017919407413889085
+      }
+    },
+    "LP": {
+      "settled_fraction": 0.95,
+      "delta_v": {
+        "mean": 16.988546085283424,
+        "std": 0.40322254870050844
+      },
+      "firings": {
+        "mean": 20.0,
+        "std": 2.1213203435596424
+      },
+      "settling_time": {
+        "mean": 4442.105263157895,
+        "std": 819.7019930076542
+      },
+      "final_error": {
+        "mean": 5.924176559025881,
+        "std": 2.650864824617107
+      },
+      "cone_viol_sampled": {
+        "mean": 7.991643218313898,
+        "std": 5.044300689807346
+      },
+      "cone_viol_intersample": {
+        "mean": 32.35357269760244,
+        "std": 2.2301416378470384
+      },
+      "solve_time_mean": {
+        "mean": 0.013449599482501495,
+        "std": 0.0010355220190241651
+      },
+      "solve_time_max": {
+        "mean": 0.0248601896999844,
+        "std": 0.019163373963158845
+      }
+    },
+    "VHLP": {
+      "settled_fraction": 1.0,
+      "delta_v": {
+        "mean": 15.076493828904479,
+        "std": 0.5039354437236322
+      },
+      "firings": {
+        "mean": 23.3,
+        "std": 2.5514701644346145
+      },
+      "settling_time": {
+        "mean": 3610.0,
+        "std": 223.38307903688676
+      },
+      "final_error": {
+        "mean": 6.017606387736658,
+        "std": 1.5345160187054612
+      },
+      "cone_viol_sampled": {
+        "mean": 7.478660776702287,
+        "std": 4.410752372998208
+      },
+      "cone_viol_intersample": {
+        "mean": 26.20476471889318,
+        "std": 3.094600811756468
+      },
+      "solve_time_mean": {
+        "mean": 0.17056968455250215,
+        "std": 0.005185305273528549
+      },
+      "solve_time_max": {
+        "mean": 0.2779775714000152,
+        "std": 0.22335009885236465
+      }
+    },
+    "VHQP": {
+      "settled_fraction": 1.0,
+      "delta_v": {
+        "mean": 17.34441166983437,
+        "std": 0.06271316341778913
+      },
+      "firings": {
+        "mean": 27.2,
+        "std": 2.0149441679609885
+      },
+      "settling_time": {
+        "mean": 3870.0,
+        "std": 247.1841418861655
+      },
+      "final_error": {
+        "mean": 5.8392043463909955,
+        "std": 2.283411605125512
+      },
+      "cone_viol_sampled": {
+        "mean": 5.134180523855013,
+        "std": 3.879208126598
+      },
+      "cone_viol_intersample": {
+        "mean": 25.792701386820266,
+        "std": 2.4638974382832584
+      },
+      "solve_time_mean": {
+        "mean": 0.21795570272250275,
+        "std": 0.010494356320028445
+      },
+      "solve_time_max": {
+        "mean": 0.3613012367000067,
+        "std": 0.2947450709075753
+      }
+    }
+  },
+  "runtime_s": 362.37273812294006
+}
