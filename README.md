@@ -299,7 +299,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-3. Run experiments.
+4. Run experiments.
 
 ```bash
 python run_experiments.py
