@@ -258,7 +258,7 @@ mpc-rendezvous/
 ├── README.md                   # Documentation
 ├── requirements.txt            # Requirements
 ├── run_experiments.py          # Main script, runs full study
-├── rendezvous_mpc/
+├── src/
 │   ├── config.py               # Scenario settings
 │   ├── dynamics.py             # HCW model, frames, two-body plant
 │   ├── controllers.py          # QP, LP, VHLP, VHQP controllers
