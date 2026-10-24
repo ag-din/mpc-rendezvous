@@ -279,13 +279,21 @@ mpc-rendezvous/
 Python 3 must be installed on your computer.
 Run the following commands in a Terminal:
 
-1. Update `pip`.
+1. Create a virtual environment.
+   
+```bash
+cd mpc-rendezvous
+python -m venv .venv
+source .venv/bin/activate 
+```
+
+2. Update `pip`.
 
 ```bash
 pip install --upgrade pip
 ```
 
-2. Install requieremts.
+3. Install requieremts.
 
 ```bash
 pip install -r requirements.txt
